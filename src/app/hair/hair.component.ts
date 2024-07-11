@@ -12,10 +12,10 @@ import { Component, OnInit } from '@angular/core';
 export class HairComponent implements OnInit {
   products: any[] = [];
 
-  constructor(private ProductService: ProductService) {}
+  constructor(private productService: ProductService) {}
 
   ngOnInit(): void {
-    this.ProductService.getProducts('hair').subscribe({
+    this.productService.getProducts('hair').subscribe({
       next: (data: any[]) => {
         this.products = data;
       },

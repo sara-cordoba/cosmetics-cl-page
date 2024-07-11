@@ -4,37 +4,44 @@
       "id": 1,
       "name": "Cosmetics | CL - Crema facial hidratante",
       "price": "26,99€",
-      "description": "Ideal para pieles sensibles y secas, con aloe vera para una hidratación profunda y lavanda para calmar"
+      "description": "Ideal para pieles sensibles y secas, con aloe vera para una hidratación profunda y lavanda para calmar",
+      "imageUrl": "assets/products/skin-cream1.webp"
     },
+
     {
       "id": 2,
       "name": "Cosmetics | CL - Crema facial para piel grasa",
       "price": "24,99€",
-      "description": "Especialmente formulada para pieles grasas, con extracto de árbol de té para controlar el exceso de sebo y prevenir imperfecciones"
+      "description": "Especialmente formulada para pieles grasas, con extracto de árbol de té para controlar el exceso de sebo y prevenir imperfecciones",
+      "imageUrl": "assets/products/skin-cream2.webp"
     },
     {
       "id": 3,
       "name": "Cosmetics | CL - Crema facial para piel mixta",
       "price": "25,99€",
-      "description": "Equilibra las zonas secas y grasas de la piel mixta, con extracto de pepino y hamamelis"
+      "description": "Equilibra las zonas secas y grasas de la piel mixta, con extracto de pepino y hamamelis",
+      "imageUrl": "assets/products/skin-cream3.webp"
     },
     {
       "id": 4,
       "name": "Cosmetics | CL - Crema facial para piel normal",
       "price": "23,99€",
-      "description": "Hidratación ligera y de rápida absorción, con vitamina E y aceite de jojoba para un cuidado diario"
+      "description": "Hidratación ligera y de rápida absorción, con vitamina E y aceite de jojoba para un cuidado diario",
+      "imageUrl": "assets/products/skin-cream4.webp"
     },
     {
       "id": 5,
       "name": "Cosmetics | CL - Mascarilla revitalizante",
       "price": "19,99€",
-      "description": "Mascarilla nutritiva con extracto de granada y vitamina C para revitalizar y dar luminosidad a la piel"
+      "description": "Mascarilla nutritiva con extracto de granada y vitamina C para revitalizar y dar luminosidad a la piel",
+      "imageUrl": "assets/products/skin-cream5.webp"
     },
     {
       "id": 6,
       "name": "Cosmetics | CL - Mascarilla purificante",
       "price": "18,99€",
-      "description": "Mascarilla de arcilla verde y carbón activado para purificar y limpiar profundamente los poros"
+      "description": "Mascarilla de arcilla verde y carbón activado para purificar y limpiar profundamente los poros",
+      "imageUrl": "assets/products/skin-cream6.webp"
     }
   ],
   "hair": [

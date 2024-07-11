@@ -12,10 +12,10 @@ import { Component, OnInit } from '@angular/core';
 export class BathroomComponent implements OnInit {
   products: any[] = [];
 
-  constructor(private ProductService: ProductService) {}
+  constructor(private productService: ProductService) {}
 
   ngOnInit(): void {
-    this.ProductService.getProducts('bathroom').subscribe({
+    this.productService.getProducts('bathroom').subscribe({
       next: (data: any[]) => {
         this.products = data;
       },
