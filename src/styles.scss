@@ -1,0 +1,30 @@
+html,
+body,
+app-root {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+  height: 100vh !important;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "monbaiti";
+  src: url("/assets/fonts/monbaiti.ttf");
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
