@@ -1,10 +1,31 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { ProductService } from '../product.service';
+import { NgFor, NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-face',
   standalone: true,
-  imports: [],
+  imports: [CommonModule, NgFor, NgIf],
   templateUrl: './face.component.html',
-  styleUrl: './face.component.scss',
+  styleUrls: ['./face.component.scss'],
 })
-export class FaceComponent {}
+export class FaceComponent implements OnInit {
+  products: any[] = [];
+
+  constructor(private productService: ProductService) {}
+
+  ngOnInit(): void {
+    this.productService.getProducts('facial').subscribe({
+      next: (data: any[]) => {
+        this.products = data;
+      },
+      error: (error: any) => {
+        console.error('Error fetching facial products', error);
+      },
+      complete: () => {
+        console.log('Product fetch completed');
+      },
+    });
+  }
+}

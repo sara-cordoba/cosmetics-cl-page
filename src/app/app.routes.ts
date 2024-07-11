@@ -4,6 +4,7 @@ import { FaceComponent } from './face/face.component';
 import { HairComponent } from './hair/hair.component';
 import { BodyComponent } from './body/body.component';
 import { BathroomComponent } from './bathroom/bathroom.component';
+import { HttpClient } from '@angular/common/http';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
