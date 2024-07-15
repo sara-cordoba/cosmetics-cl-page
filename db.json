@@ -50,42 +50,42 @@
       "name": "Cosmetics | CL - Champú hidratante",
       "price": "14,99€",
       "description": "Champú con aceite de argán para una hidratación profunda y brillo",
-      "imageUrl": "assets/products/hair-shampoo1"
+      "imageUrl": "assets/products/hair-shampoo1.webp"
     },
     {
       "id": 8,
       "name": "Cosmetics | CL - Champú para cabello graso",
       "price": "13,99€",
       "description": "Champú con extracto de menta y árbol de té para controlar el exceso de sebo",
-      "imageUrl": "assets/products/hair-shampoo2"
+      "imageUrl": "assets/products/hair-shampoo2.webp"
     },
     {
       "id": 9,
       "name": "Cosmetics | CL - Acondicionador reparador",
       "price": "15,99€",
       "description": "Acondicionador con queratina y aceite de coco para reparar y fortalecer el cabello dañado",
-      "imageUrl": "assets/products/hair-conditioner"
+      "imageUrl": "assets/products/hair-conditioner.webp"
     },
     {
       "id": 10,
       "name": "Cosmetics | CL - Mascarilla capilar nutritiva",
       "price": "17,99€",
       "description": "Mascarilla con manteca de karité para nutrir y suavizar el cabello seco",
-      "imageUrl": "assets/products/hair-mask"
+      "imageUrl": "assets/products/hair-mask.webp"
     },
     {
       "id": 11,
       "name": "Cosmetics | CL - Serum capilar anti-frizz",
       "price": "19,99€",
       "description": "Serum con aceite de almendra para controlar el frizz y añadir brillo",
-      "imageUrl": "assets/products/hair-serum"
+      "imageUrl": "assets/products/hair-serum.webp"
     },
     {
       "id": 12,
       "name": "Cosmetics | CL - Spray protector térmico",
       "price": "18,99€",
       "description": "Spray con proteínas de seda para proteger el cabello del daño por calor",
-      "imageUrl": "assets/products/hair-spray"
+      "imageUrl": "assets/products/hair-spray.webp"
     }
   ],
   "body": [
