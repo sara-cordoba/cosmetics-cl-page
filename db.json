@@ -137,37 +137,43 @@
       "id": 19,
       "name": "Cosmetics | CL - Sales de baño relajantes",
       "price": "16,99€",
-      "description": "Sales de baño con lavanda y manzanilla para una experiencia de relajación total"
+      "description": "Sales de baño con lavanda y manzanilla para una experiencia de relajación total",
+      "imageUrl": "assets/products/bathroom-salt.webp"
     },
     {
       "id": 20,
       "name": "Cosmetics | CL - Bombas de baño efervescentes",
       "price": "14,99€",
-      "description": "Bombas de baño con aceites esenciales para una piel suave y perfumada"
+      "description": "Bombas de baño con aceites esenciales para una piel suave y perfumada",
+      "imageUrl": "assets/products/bathroom-bomb.webp"
     },
     {
       "id": 21,
       "name": "Cosmetics | CL - Espuma de baño calmante",
       "price": "18,99€",
-      "description": "Espuma de baño con extracto de avena y leche de almendra para calmar y suavizar la piel"
+      "description": "Espuma de baño con extracto de avena y leche de almendra para calmar y suavizar la piel",
+      "imageUrl": "assets/products/bathroom-foam.webp"
     },
     {
       "id": 22,
       "name": "Cosmetics | CL - Aceite de baño nutritivo",
       "price": "19,99€",
-      "description": "Aceite de baño con aceite de jojoba y vitamina E para nutrir y suavizar la piel"
+      "description": "Aceite de baño con aceite de jojoba y vitamina E para nutrir y suavizar la piel",
+      "imageUrl": "assets/products/bathroom-oil.webp"
     },
     {
       "id": 23,
       "name": "Cosmetics | CL - Gel de baño energizante",
       "price": "17,99€",
-      "description": "Gel de baño con extracto de cítricos y ginseng para una piel revitalizada y energizada"
+      "description": "Gel de baño con extracto de cítricos y ginseng para una piel revitalizada y energizada",
+      "imageUrl": "assets/products/bathroom-gel.webp"
     },
     {
       "id": 24,
       "name": "Cosmetics | CL - Jabón de baño artesanal",
       "price": "12,99€",
-      "description": "Jabón de baño hecho a mano con ingredientes naturales y fragancia de lavanda"
+      "description": "Jabón de baño hecho a mano con ingredientes naturales y fragancia de lavanda",
+      "imageUrl": "assets/products/bathroom-soap.webp"
     }
   ],
   "profile": {
