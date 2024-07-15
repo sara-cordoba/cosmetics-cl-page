@@ -18,10 +18,18 @@ import { PipeCopyrightPipe } from '../pipe-copyright.pipe';
 export class FooterComponent {
   contactForm!: FormGroup;
   formSubmitted = false;
+  emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
   constructor(private formBuilder: FormBuilder) {
     this.contactForm = this.formBuilder.group({
-      email: ['', [Validators.required, Validators.email]],
+      email: [
+        '',
+        [
+          Validators.required,
+          Validators.email,
+          Validators.pattern(this.emailPattern),
+        ],
+      ],
     });
   }
 

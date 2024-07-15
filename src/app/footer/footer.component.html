@@ -26,7 +26,7 @@
              <div>
                 <span *ngIf="formSubmitted" class="text-submited">¡Enviado satisfactoriamente!</span>
              </div>
-             <div *ngIf="!isFieldEmpty('email') && hasErrors('email', 'email')" class="text-danger">
+             <div *ngIf="!isFieldEmpty('email') && hasErrors('email', 'email') && !contactForm.valid" class="text-danger">
                 Formato de correo inválido
               </div> 
             </div>
