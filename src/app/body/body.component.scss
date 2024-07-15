@@ -4,6 +4,27 @@
   object-fit: cover;
 }
 
+h1 {
+  position: absolute;
+  top: 34%;
+  left: 38%;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-weight: 800;
+  font-size: 80px;
+}
+
+.text-description-page {
+  width: 65%;
+  padding: 30px;
+  font-size: 15px;
+}
+
+.text-weight {
+  font-weight: 700;
+}
+
 /* Cards products */
 
 .section-select {
