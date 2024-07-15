@@ -93,37 +93,43 @@
       "id": 13,
       "name": "Cosmetics | CL - Crema corporal hidratante",
       "price": "22,99€",
-      "description": "Crema corporal con manteca de cacao para una piel suave y nutrida"
+      "description": "Crema corporal con manteca de cacao para una piel suave y nutrida",
+      "imageUrl": "assets/products/body-cream.webp"
     },
     {
       "id": 14,
       "name": "Cosmetics | CL - Exfoliante corporal",
       "price": "21,99€",
-      "description": "Exfoliante con partículas de azúcar y aceite de almendra para una piel suave y renovada"
+      "description": "Exfoliante con partículas de azúcar y aceite de almendra para una piel suave y renovada",
+      "imageUrl": "assets/products/body-scrub.webp"
     },
     {
       "id": 15,
       "name": "Cosmetics | CL - Aceite corporal relajante",
       "price": "24,99€",
-      "description": "Aceite con lavanda y manzanilla para una experiencia de relajación total"
+      "description": "Aceite con lavanda y manzanilla para una experiencia de relajación total",
+      "imageUrl": "assets/products/body-oil.webp"
     },
     {
       "id": 16,
       "name": "Cosmetics | CL - Crema reafirmante",
       "price": "26,99€",
-      "description": "Crema corporal con colágeno y elastina para mejorar la firmeza de la piel"
+      "description": "Crema corporal con colágeno y elastina para mejorar la firmeza de la piel",
+      "imageUrl": "assets/products/body-cream2.webp"
     },
     {
       "id": 17,
       "name": "Cosmetics | CL - Loción corporal refrescante",
       "price": "20,99€",
-      "description": "Loción con aloe vera y menta para una sensación refrescante y revitalizante"
+      "description": "Loción con aloe vera y menta para una sensación refrescante y revitalizante",
+      "imageUrl": "assets/products/body-lotion.webp"
     },
     {
       "id": 18,
       "name": "Cosmetics | CL - Bálsamo corporal reparador",
       "price": "23,99€",
-      "description": "Bálsamo con caléndula y vitamina E para reparar y proteger la piel seca y agrietada"
+      "description": "Bálsamo con caléndula y vitamina E para reparar y proteger la piel seca y agrietada",
+      "imageUrl": "assets/products/body-repair.webp"
     }
   ],
   "bathroom": [
