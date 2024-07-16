@@ -1,17 +1,13 @@
 <div class="cover-image">
     <img src="assets/img-pages/img-facial.jpg" alt="Producto crema facial">
     <div class="cover-text">
-       <h1>Facial</h1>
+       <h1>{{"SKIN.title-page" | translate}}</h1>
     </div>
   
 </div>
 
 <div class="text-description-page">
-  <p>
-Nuestros productos faciales están formulados con ingredientes naturales, <span class="text-weight">libres de sulfatos</span> y <span class="text-weight">parabenos</span>. 
-Cada crema y mascarilla está diseñada para proporcionar <span class="text-weight">hidratación profunda</span> y <span class="text-weight">equilibrar tu piel</span>. 
-Con extractos de plantas como el aloe vera y el árbol de té, garantizamos un cuidado suave y efectivo para todos los tipos de piel.
-  </p>
+  <p [innerHTML]="'SKIN.description-page' | translate"></p>
 </div>
 
 <div class="section-select">
@@ -22,7 +18,7 @@ Con extractos de plantas como el aloe vera y el árbol de té, garantizamos un c
           <h5 class="card-title">{{ product.name }}</h5>
           <p class="card-text">{{ product.description }}</p>
           <p class="card-text"><strong>{{ product.price }}</strong></p>
-          <button type="button" class="btn-skin">Comprar</button>
+          <button type="button" class="btn-skin">{{"SKIN.btn-skin" | translate}}</button>
         </div>
       </div>
   </div>

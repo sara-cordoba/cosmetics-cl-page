@@ -7,11 +7,7 @@
 </div>
 
 <div class="text-description-page">
-  <p>
-    Descubre nuestra gama de productos capilares, <span class="text-weight">libres de sulfatos</span> y llenos de <span class="text-weight">nutrientes esenciales</span>. 
-    Desde champús hasta serums, nuestros productos contienen ingredientes naturales como aceite de argán, menta y queratina. 
-    Diseñados para <span class="text-weight">hidratar</span>, <span class="text-weight">fortalecer</span> y <span class="text-weight">revitalizar tu cabello</span>, dejándolo suave y manejable.
-  </p>
+  <p [innerHTML]="'HAIR.description-page' | translate"></p>
 </div>
 
 <div class="section-select">
@@ -22,7 +18,7 @@
           <h5 class="card-title">{{ product.name }}</h5>
           <p class="card-text">{{ product.description }}</p>
           <p class="card-text"><strong>{{ product.price }}</strong></p>
-          <button type="button" class="btn-skin">Comprar</button>
+          <button type="button" class="btn-skin">{{"HAIR.btn-skin" | translate}}</button>
         </div>
       </div>
   </div>

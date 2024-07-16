@@ -1,0 +1,46 @@
+{
+  "APPCOMPONENT": {
+    "text-shipping": "Envío gratuito a partir de 30€",
+    "title-home": "Cosmetics | cl",
+    "btn-search": "Buscar",
+    "text-page-home": "Home",
+    "text-page-skin": "Facial",
+    "text-page-hair": "Cabello",
+    "text-page-body": "Cuerpo",
+    "text-page-bathroom": "Baño"
+  },
+
+  "HOME": {
+    "title-carousel-1": "Gama de Árbol de Té",
+    "carousel-description-1": "Especialmente formulados para purificar, refrescar y equilibrar tu piel. Ideales para pieles mixtas y grasas.",
+    "title-carousel-2": "Jabones Sólidos Naturales",
+    "carousel-description-2": "Disfruta de nuestros jabones sólidos, ideales para una limpieza suave y neutra.",
+    "title-carousel-3": "Productos de Spa para la Bañera",
+    "carousel-description-3": "Relájate y disfruta con nuestras sales de baño y otros productos para una experiencia de spa en casa.",
+    "title-test": "Test para descubrir tu tipo de piel",
+    "test-description": "¿Quieres saber cuál de los cuatro tipos de piel es el tuyo y la mejor y la mejor rutina para tener una piel perfecta? Haz nuestro sencillo test y lo averiguarás.",
+    "test-firts-step": "Lava el rostro con un limpiador suave y espera entre 15 y 30 minutos.",
+    "test-second-step": "Durante este tiempo, no apliques ningún producto.",
+    "test-third-step": "Determina tu tipo de piel en función de las características que observes.",
+    "text-card-1": "Los productos adecuados para el cuidado de la piel mantendrán tu piel con un aspecto saludable, suave e hidratado",
+    "btn-card-1": "Comprar productos para piel normal",
+    "text-card-2": "Los productos correctos para el cuidado de la piel la nutrirán, repararán la barrera de la piel y evitarán la pérdida de humedad",
+    "btn-card-2": "Comprar productos para piel seca",
+    "text-card-3": "Con los productos adecuados, tu piel se volverá más equilibrada y se verá más suave y sin imperfecciones.",
+    "btn-card-3": "Comprar productos para piel mixta",
+    "text-card-4": "Los productos correctos para el cuidado de la piel equilibrarán la piel y la ayudarán a librarse de los brillos y las imperfecciones.",
+    "btn-card-4": "Comprar productos para piel grasa"
+  },
+
+  "SKIN": {
+    "title-page": "Facial",
+    "description-page": "Nuestros productos faciales están formulados con ingredientes naturales, <span class=\"text-weight\">libres de sulfatos</span> y <span class=\"text-weight\">parabenos</span>. Cada crema y mascarilla está diseñada para proporcionar <span class=\"text-weight\">hidratación profunda</span> y <span class=\"text-weight\">equilibrar tu piel</span>. Con extractos de plantas como el aloe vera y el árbol de té, garantizamos un cuidado suave y efectivo para todos los tipos de piel.",
+    "btn-skin": "Comprar"
+  },
+
+  "HAIR": {
+    "title-page": "Cabello",
+    "description-page": "Descubre nuestra gama de productos capilares, <span class=\"text-weight\">libres de sulfatos</span> y llenos de <span class=\"text-weight\">nutrientes esenciales</span>. Desde champús hasta serums, nuestros productos contienen ingredientes naturales como aceite de argán, menta y queratina. Diseñados para <span class=\"text-weight\">hidratar</span>, <span class=\"text-weight\">fortalecer</span> y <span class=\"text-weight\">revitalizar tu cabello</span>, dejándolo suave y manejable.",
+    "btn-skin": "Comprar"
+  }
+}

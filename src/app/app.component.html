@@ -1,19 +1,19 @@
 
   <div class="free-shipping">
-    <span>Envío gratuito a partir de 30€</span>
+    <span>{{'APPCOMPONENT.text-shipping' | translate }}</span>
     <img src="assets/icons/icon-packing-black.gif" alt="Icono de envío gratuito" class="shipping-icon">
   </div>
 
 
 <div class="title-section">
   <h1 class="title">
-    <a routerLink="home" (click)="navBar('home')">Cosmetics | cl</a>
+    <a routerLink="home" (click)="navBar('home')">{{'APPCOMPONENT.title-home' | translate }}</a>
   </h1>
 
 <div id='search-box'>
   <form action='/search' id='search-form' method='get' target='_top'>
     <input id='search-text' name='q' placeholder='Crema facial..' type='text'/>
-    <button id='search-button' type='submit'><span>Buscar</span></button>
+    <button id='search-button' type='submit'><span>{{"APPCOMPONENT.btn-search" | translate }}</span></button>
   </form>
 </div>
 
@@ -32,19 +32,19 @@
 <nav class="nav-home">
 <ul>
   <li> 
-    <a routerLink="home" (click)="navBar('home')">Home</a>
+    <a routerLink="home" (click)="navBar('home')">{{"APPCOMPONENT.text-page-home" | translate}}</a>
   </li>
   <li>
-    <a routerLink="face" (click)="navBar('face')">Facial</a>
+    <a routerLink="face" (click)="navBar('face')">{{"APPCOMPONENT.text-page-skin" | translate}}</a>
   </li>
   <li>
-    <a routerLink="hair" (click)="navBar('hair')">Cabello</a>
+    <a routerLink="hair" (click)="navBar('hair')">{{"APPCOMPONENT.text-page-hair" | translate}}</a>
   </li>
   <li>
-    <a routerLink="body" (click)="navBar('body')">Cuerpo</a>
+    <a routerLink="body" (click)="navBar('body')">{{"APPCOMPONENT.text-page-body" | translate}}</a>
   </li>
   <li>
-    <a routerLink="bathroom" (click)="navBar('bathroom')">Baño</a>
+    <a routerLink="bathroom" (click)="navBar('bathroom')">{{"APPCOMPONENT.text-page-bathroom" | translate}}</a>
   </li>
 </ul>
 </nav>

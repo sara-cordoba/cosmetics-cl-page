@@ -7,11 +7,18 @@ import {
   Validators,
 } from '@angular/forms';
 import { PipeCopyrightPipe } from '../pipe-copyright.pipe';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-footer',
   standalone: true,
-  imports: [ReactiveFormsModule, CommonModule, NgClass, PipeCopyrightPipe],
+  imports: [
+    ReactiveFormsModule,
+    CommonModule,
+    NgClass,
+    PipeCopyrightPipe,
+    TranslateModule,
+  ],
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.scss',
 })

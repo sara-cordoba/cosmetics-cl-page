@@ -1,0 +1,46 @@
+{
+  "APPCOMPONENT": {
+    "text-shipping": "Free shipping on orders over 30€",
+    "title-home": "Cosmetics | cl",
+    "btn-search": "Search",
+    "text-page-home": "Home",
+    "text-page-skin": "Facial",
+    "text-page-hair": "Hair",
+    "text-page-body": "Body",
+    "text-page-bathroom": "Bathroom"
+  },
+
+  "HOME": {
+    "title-carousel-1": "Tea Tree Range",
+    "carousel-description-1": "Specially formulated to purify, refresh, and balance your skin. Ideal for combination and oily skin.",
+    "title-carousel-2": "Natural Solid Soaps",
+    "carousel-description-2": "Enjoy our solid soaps, ideal for gentle and neutral cleansing.",
+    "title-carousel-3": "Spa Products for the Bath",
+    "carousel-description-3": "Relax and enjoy with our bath salts and other products for a spa-like experience at home.",
+    "title-test": "Test to Discover Your Skin Type",
+    "test-description": "Do you want to know which of the four skin types is yours and the best routine for perfect skin? Take our simple test and find out.",
+    "test-first-step": "Wash your face with a gentle cleanser and wait 15 to 30 minutes.",
+    "test-second-step": "During this time, do not apply any products.",
+    "test-third-step": "Determine your skin type based on the characteristics you observe.",
+    "text-card-1": "The right skincare products will keep your skin looking healthy, soft, and hydrated.",
+    "btn-card-1": "Buy products for normal skin",
+    "text-card-2": "The right skincare products will nourish, repair the skin barrier, and prevent moisture loss.",
+    "btn-card-2": "Buy products for dry skin",
+    "text-card-3": "With the right products, your skin will become more balanced and appear smoother and blemish-free.",
+    "btn-card-3": "Buy products for combination skin",
+    "text-card-4": "The right skincare products will balance your skin and help get rid of shine and blemishes.",
+    "btn-card-4": "Buy products for oily skin"
+  },
+
+  "SKIN": {
+    "title-page": "Skin",
+    "description-page": "Our facial products are formulated with natural ingredients, <span class=\"text-weight\">sulfate-free</span> and <span class=\"text-weight\">paraben-free</span>. Each cream and mask is designed to provide <span class=\"text-weight\">deep hydration</span> and <span class=\"text-weight\">balance your skin</span>. With plant extracts like aloe vera and tea tree, we guarantee gentle and effective care for all skin types.",
+    "btn-skin": "Buy"
+  },
+
+  "HAIR": {
+    "title-page": "Hair",
+    "description-page": "Discover our range of hair products, <span class=\"text-weight\">sulfate-free</span> and full of <span class=\"text-weight\">essential nutrients</span>. From shampoos to serums, our products contain natural ingredients like argan oil, mint, and keratin. Designed to <span class=\"text-weight\">hydrate</span>, <span class=\"text-weight\">strengthen</span>, and <span class=\"text-weight\">revitalize your hair</span>, leaving it soft and manageable.",
+    "btn-skin": "Buy"
+  }
+}
