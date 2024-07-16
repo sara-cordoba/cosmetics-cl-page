@@ -1,3 +1,38 @@
+/* Icons footer */
+.icons-footer {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+
+  .icon-black-footer {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .icon-black-footer img {
+    width: 80px;
+    height: 80px;
+    cursor: auto;
+  }
+
+  .icon-black-footer p {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 800;
+    width: 85%;
+    padding: 5px;
+  }
+}
+
+/* Container footer */
+
 .container-footer {
   display: flex;
   flex-direction: column;
@@ -94,7 +129,7 @@
   }
 }
 
-/* */
+/* Texts */
 h2 {
   width: 35%;
   margin-bottom: 20px;
@@ -231,5 +266,23 @@ img {
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .icons-footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .icon-black-footer {
+    width: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  .icon-black-footer {
+    width: 100%;
   }
 }
