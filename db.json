@@ -198,45 +198,6 @@
         "en": "Oil with lavender and chamomile for a total relaxation experience"
       },
       "imageUrl": "assets/products/body-oil.webp"
-    },
-    {
-      "id": 16,
-      "name": {
-        "es": "Cosmetics | CL - Crema reafirmante",
-        "en": "Cosmetics | CL - Firming Cream"
-      },
-      "price": "26,99€",
-      "description": {
-        "es": "Crema corporal con colágeno y elastina para mejorar la firmeza de la piel",
-        "en": "Body cream with collagen and elastin to improve skin firmness"
-      },
-      "imageUrl": "assets/products/body-cream2.webp"
-    },
-    {
-      "id": 17,
-      "name": {
-        "es": "Cosmetics | CL - Loción corporal refrescante",
-        "en": "Cosmetics | CL - Refreshing Body Lotion"
-      },
-      "price": "20,99€",
-      "description": {
-        "es": "Loción con aloe vera y menta para una sensación refrescante y revitalizante",
-        "en": "Lotion with aloe vera and mint for a refreshing and revitalizing sensation"
-      },
-      "imageUrl": "assets/products/body-lotion.webp"
-    },
-    {
-      "id": 18,
-      "name": {
-        "es": "Cosmetics | CL - Bálsamo corporal reparador",
-        "en": "Cosmetics | CL - Repairing Body Balm"
-      },
-      "price": "23,99€",
-      "description": {
-        "es": "Bálsamo con caléndula y vitamina E para reparar y proteger la piel seca y agrietada",
-        "en": "Balm with calendula and vitamin E to repair and protect dry and cracked skin"
-      },
-      "imageUrl": "assets/products/body-repair.webp"
     }
   ],
   "bathroom": [
@@ -278,45 +239,6 @@
         "en": "Bath foam with oatmeal extract and almond milk to calm and soften the skin"
       },
       "imageUrl": "assets/products/bathroom-foam.webp"
-    },
-    {
-      "id": 22,
-      "name": {
-        "es": "Cosmetics | CL - Aceite de baño nutritivo",
-        "en": "Cosmetics | CL - Nutritive Bath Oil"
-      },
-      "price": "19,99€",
-      "description": {
-        "es": "Aceite de baño con aceite de jojoba y vitamina E para nutrir y suavizar la piel",
-        "en": "Bath oil with jojoba oil and vitamin E to nourish and soften the skin"
-      },
-      "imageUrl": "assets/products/bathroom-oil.webp"
-    },
-    {
-      "id": 23,
-      "name": {
-        "es": "Cosmetics | CL - Gel de baño energizante",
-        "en": "Cosmetics | CL - Energizing Bath Gel"
-      },
-      "price": "17,99€",
-      "description": {
-        "es": "Gel de baño con extracto de cítricos y ginseng para una piel revitalizada y energizada",
-        "en": "Bath gel with citrus and ginseng extract for revitalized and energized skin"
-      },
-      "imageUrl": "assets/products/bathroom-gel.webp"
-    },
-    {
-      "id": 24,
-      "name": {
-        "es": "Cosmetics | CL - Jabón de baño artesanal",
-        "en": "Cosmetics | CL - Handmade Bath Soap"
-      },
-      "price": "12,99€",
-      "description": {
-        "es": "Jabón de baño hecho a mano con ingredientes naturales y fragancia de lavanda",
-        "en": "Handmade bath soap with natural ingredients and lavender fragrance"
-      },
-      "imageUrl": "assets/products/bathroom-soap.webp"
     }
   ],
   "profile": {

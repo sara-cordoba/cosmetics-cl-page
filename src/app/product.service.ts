@@ -14,7 +14,7 @@ export class ProductService {
   constructor(private http: HttpClient, private translate: TranslateService) {}
 
   getProducts(category: string): Observable<any[]> {
-    const lang = this.translate.currentLang || this.translate.defaultLang;
+    const lang = this.translate.currentLang || this.translate.getDefaultLang();
     return this.http.get<any[]>(`${this.apiUrl}/${category}`).pipe(
       map((products) =>
         products.map((product) => ({

@@ -13,7 +13,10 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 export class HairComponent implements OnInit {
   products: any[] = [];
 
-  constructor(private productService: ProductService) {}
+  constructor(
+    private productService: ProductService,
+    private translate: TranslateService
+  ) {}
 
   ngOnInit(): void {
     this.productService.getProducts('hair').subscribe({
@@ -27,5 +30,18 @@ export class HairComponent implements OnInit {
         console.log('Product fetch completed');
       },
     });
+
+    this.translate.onLangChange.subscribe(() => {
+      this.updateProductTranslations();
+    });
+  }
+
+  private updateProductTranslations() {
+    const lang = this.translate.currentLang || this.translate.getDefaultLang();
+    this.products = this.products.map((product) => ({
+      ...product,
+      name: product.name[lang],
+      description: product.description[lang],
+    }));
   }
 }
