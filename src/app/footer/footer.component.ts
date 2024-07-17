@@ -8,6 +8,7 @@ import {
 } from '@angular/forms';
 import { PipeCopyrightPipe } from '../pipe-copyright.pipe';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { LanguageService } from '../language.service';
 
 @Component({
   selector: 'app-footer',
@@ -26,8 +27,13 @@ export class FooterComponent {
   contactForm!: FormGroup;
   formSubmitted = false;
   emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  iconSrc: string = 'assets/icons/icon-spain.png';
 
-  constructor(private formBuilder: FormBuilder) {
+  constructor(
+    private formBuilder: FormBuilder,
+    private translate: TranslateService,
+    private languageService: LanguageService
+  ) {
     this.contactForm = this.formBuilder.group({
       email: [
         '',
@@ -37,6 +43,14 @@ export class FooterComponent {
           Validators.pattern(this.emailPattern),
         ],
       ],
+    });
+
+    this.languageService.currentLang$.subscribe((lang) => {
+      this.translate.use(lang);
+      this.iconSrc =
+        lang === 'es'
+          ? 'assets/icons/icon-spain.png'
+          : 'assets/icons/icon-usa.png';
     });
   }
 
@@ -57,5 +71,10 @@ export class FooterComponent {
   isFieldEmpty(field: string): boolean {
     const control = this.contactForm.get(field);
     return !control || control.value === '';
+  }
+
+  toggleLanguage() {
+    const newLang = this.languageService.getLanguage() === 'es' ? 'en' : 'es';
+    this.languageService.setLanguage(newLang);
   }
 }

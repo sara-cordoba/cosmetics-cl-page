@@ -91,7 +91,9 @@
     <div class="footer-row">
         <div class="container-copyrigth">
         <hr>
-        <img src="assets/icons/icon-spain.png">
+        <button class="btn-spain" (click)="toggleLanguage()">
+          <img [src]="iconSrc" alt="Icono de idioma" class="lang-spain">
+        </button>
         <p class="lang">{{"FOOTER.lang-price" | translate}}</p>
         <p class="copyright">{{ null | pipeCopyright }}</p>
     </div>

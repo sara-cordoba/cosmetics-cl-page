@@ -3,6 +3,8 @@ import { Component } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { LanguageService } from './language.service';
+import { TranslatePlaceholderDirective } from './translate-placeholder.directive';
 
 @Component({
   selector: 'app-root',
@@ -13,6 +15,7 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
     CommonModule,
     FooterComponent,
     TranslateModule,
+    TranslatePlaceholderDirective,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
@@ -20,18 +23,19 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 export class AppComponent {
   title = 'shoppingpage-angular';
   menuOption: string = '';
-  currentLang: string = 'es';
   iconSrc: string = 'assets/icons/icon-spain.png';
 
-  constructor(private translate: TranslateService) {
-    this.translate.addLangs(['en', 'es']);
-    this.translate.setDefaultLang('es');
-    const browserLang = this.translate.getBrowserLang();
-    if (browserLang) {
-      this.translate.use(browserLang.match(/en|es/) ? browserLang : 'es');
-    } else {
-      this.translate.use('es');
-    }
+  constructor(
+    private translate: TranslateService,
+    private languageService: LanguageService
+  ) {
+    this.languageService.currentLang$.subscribe((lang) => {
+      this.translate.use(lang);
+      this.iconSrc =
+        lang === 'es'
+          ? 'assets/icons/icon-spain.png'
+          : 'assets/icons/icon-usa.png';
+    });
   }
 
   navBar(menuOption: string) {
@@ -39,13 +43,7 @@ export class AppComponent {
   }
 
   toggleLanguage() {
-    if (this.currentLang === 'es') {
-      this.currentLang = 'en';
-      this.iconSrc = 'assets/icons/icon-usa.png';
-    } else {
-      this.currentLang = 'es';
-      this.iconSrc = 'assets/icons/icon-spain.png';
-    }
-    this.translate.use(this.currentLang);
+    const newLang = this.languageService.getLanguage() === 'es' ? 'en' : 'es';
+    this.languageService.setLanguage(newLang);
   }
 }
