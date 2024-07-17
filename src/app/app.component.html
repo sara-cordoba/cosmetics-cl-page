@@ -18,8 +18,8 @@
 </div>
 
 <div class="icons-section">
-  <button class="btn-spain">
-    <img src="assets/icons/icon-spain.png" alt="Icono de idioma español" class="lang-spain">
+  <button class="btn-spain" (click)="toggleLanguage()">
+    <img [src]="iconSrc" alt="Icono de idioma" class="lang-spain">
   </button>
 
   <button class="btn-shopping">

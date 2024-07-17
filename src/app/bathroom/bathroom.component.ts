@@ -1,11 +1,12 @@
 import { ProductService } from './../product.service';
 import { CommonModule, NgFor, NgIf } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-bathroom',
   standalone: true,
-  imports: [CommonModule, NgFor, NgIf],
+  imports: [CommonModule, NgFor, NgIf, TranslateModule],
   templateUrl: './bathroom.component.html',
   styleUrl: './bathroom.component.scss',
 })

@@ -1,17 +1,12 @@
 <div class="cover-image">
     <img src="assets/img-pages/img-bathroom.jpg" alt="Crema corporal">
     <div class="cover-text">
-      <h1>Baño</h1>
+      <h1>{{"BATHROOM.title-page" | translate}}</h1>
     </div>
 </div>
 
 <div class="text-description-page">
-  <p>
-    Transforma tu rutina de baño con nuestras <span class="text-weight">sales</span>, <span class="text-weight">bombas</span> y <span class="text-weight">aceites de baño</span>. 
-    Enriquecidos con extractos de lavanda, jojoba y cítricos, nuestros productos de baño son perfectos 
-    para una experiencia relajante y revitalizante. <span class="text-weight">Libres de sulfatos</span> y con <span class="text-weight">ingredientes naturales</span>, cuidan 
-    tu piel mientras disfrutas de un baño de spa en casa.
-  </p> 
+  <p [innerHTML]="'BATHROOM.description-page' | translate"></p> 
 </div>
 
 <div class="section-select">
@@ -22,7 +17,7 @@
           <h5 class="card-title">{{ product.name }}</h5>
           <p class="card-text">{{ product.description }}</p>
           <p class="card-text"><strong>{{ product.price }}</strong></p>
-          <button type="button" class="btn-skin">Comprar</button>
+          <button type="button" class="btn-skin">{{"BATHROOM.btn-skin" | translate}}</button>
         </div>
       </div>
   </div>

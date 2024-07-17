@@ -3,49 +3,45 @@
   <div class="icons-footer">
     <div class="icon-black-footer">
       <img src="assets/footer/hand-washing.png">
-      <p>Cuidadoso con la piel</p>
+      <p>{{"FOOTER.icon-hand" | translate}}</p>
     </div>
 
     <div class="icon-black-footer">
       <img src="assets/footer/lavender.png">
-      <p>Ingredientes Naturales</p>
+      <p>{{"FOOTER.icon-lavender" | translate}}</p>
     </div>
 
     <div class="icon-black-footer">
       <img src="assets/footer/non-toxic.png">
-      <p>Libre de sulfatos</p>
+      <p>{{"FOOTER.icon-non-toxic" | translate}}</p>
     </div>
 
     <div class="icon-black-footer">
       <img src="assets/footer/paw.png">
-      <p>No testado en animales</p>
+      <p>{{"FOOTER.icon-paw" | translate}}</p>
     </div>
 
     <div class="icon-black-footer">
       <img src="assets/footer/recycle.png">
-      <p>Sin plásticos</p>
+      <p>{{"FOOTER.icon-recycle" | translate}}</p>
     </div>
 
     <div class="icon-black-footer">
       <img src="assets/footer/vegan.png">
-      <p>100% vegano</p>
+      <p>{{"FOOTER.icon-vegan" | translate}}</p>
     </div>
   </div>
 
     <div class="footer-row">
         <div class="container-newsletter">
-        <h2>Suscribete a la Newsletter de Cosmetics</h2>
-        <p class="p-newsletter">Mantente al día sobre los nuevos lanzamientos, eventos y mucho más.
-            No compartiremos tus datos con terceros y puedes darte de baja en cualquier momento.
-            Para mas información, consulta nuestra <span class="span-link">política de privacidad</span> y las 
-            <span class="span-link">condiciones generales</span> de venta.
-        </p>
+        <h2>{{"FOOTER.title-newsletter" | translate}}</h2>
+        <p class="p-newsletter" [innerHTML]="'FOOTER.text-newsletter' | translate"></p>
         <form [formGroup]="contactForm" class="input-footer" novalidate (submit)="enviar($event)">
             <div class="input-row">
               <input 
                 type="email"
                 class="input-mail" 
-                placeholder="Dirección de correo electrónico"
+                [attr.placeholder]="'FOOTER.placeholder-email' | translate"
                 formControlName="email"
                 [ngClass]="{'is-invalid' : hasErrors('email', 'required') || hasErrors('email', 'email')}"
               >
@@ -56,10 +52,10 @@
 
             <div class="texterror-padding">
              <div>
-                <span *ngIf="formSubmitted" class="text-submited">¡Enviado satisfactoriamente!</span>
+                <span *ngIf="formSubmitted" class="text-submited">{{ 'FOOTER.text-submitted' | translate }}</span>
              </div>
              <div *ngIf="!isFieldEmpty('email') && hasErrors('email', 'email') && !contactForm.valid" class="text-danger">
-                Formato de correo inválido
+              {{ 'FOOTER.invalid-email' | translate }}
               </div> 
             </div>
          
@@ -67,27 +63,27 @@
     </div>
 
     <div class="container-service">
-        <h3>Servicio de atención al cliente</h3>
+        <h3>{{"FOOTER.title-service" | translate}}</h3>
 
-        <li>Contáctanos</li>
-        <li>información sobre la entrega</li>
-        <li>Condiciones de venta</li>
-        <li>Cambios y devoluciones</li>
-        <li>Política de privacidad</li>
-        <li>Política de cookies</li>
-        <li>Aviso Legal</li>
-        <li>Configuración de cookies</li>
+        <li>{{"FOOTER.li-contact" | translate}}</li>
+        <li>{{"FOOTER.li-information" | translate}}</li>
+        <li>{{"FOOTER.li-conditions" | translate}}</li>
+        <li>{{"FOOTER.li-changes" | translate}}</li>
+        <li>{{"FOOTER.li-privacy" | translate}}</li>
+        <li>{{"FOOTER.li-cookies" | translate}}</li>
+        <li>{{"FOOTER.li-legal" | translate}}</li>
+        <li>{{"FOOTER.li-confi-cookies" | translate}}</li>
     </div>
 
     <div class="container-cosmetics">
-        <h3>Somos Cosmetics</h3>
+        <h3>{{"FOOTER.title-are" | translate}}</h3>
 
-        <li>Nuestro compromiso</li>
-        <li>Nuestro programa de reciclaje</li>
-        <li>Eventos en tienda</li>
-        <li>Live Shopping</li>
-        <li>Nuestra política de frescura</li>
-        <li>Cosmetics App</li>
+        <li>{{"FOOTER.li-commitment" | translate}}</li>
+        <li>{{"FOOTER.li-recycle" | translate}}</li>
+        <li>{{"FOOTER.li-store-event" | translate}}</li>
+        <li>{{"FOOTER.li-live" | translate}}</li>
+        <li>{{"FOOTER.li-freshness" | translate}}</li>
+        <li>{{"FOOTER.li-app" | translate}}</li>
     </div>
     </div>
     
@@ -96,7 +92,7 @@
         <div class="container-copyrigth">
         <hr>
         <img src="assets/icons/icon-spain.png">
-        <p class="lang">Spain · Español · €</p>
+        <p class="lang">{{"FOOTER.lang-price" | translate}}</p>
         <p class="copyright">{{ null | pipeCopyright }}</p>
     </div>
 

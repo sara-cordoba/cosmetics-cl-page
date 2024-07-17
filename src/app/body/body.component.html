@@ -1,17 +1,13 @@
 <div class="cover-image">
     <img src="assets/img-pages/img-body.jpg" alt="Crema corporal">
     <div class="cover-text">
-      <h1>Cuerpo</h1>
+      <h1>{{"BODY.title-page" | translate}}</h1>
     </div>
   
 </div>
 
 <div class="text-description-page">
-  <p>
-    Nuestros productos corporales están <span class="text-weight">enriquecidos con mantecas</span> y <span class="text-weight">aceites naturales</span> como el cacao y la lavanda. 
-    Cada crema, loción y exfoliante está formulado para nutrir y suavizar la piel, <span class="text-weight">sin productos químicos agresivos</span>. 
-    Disfruta de una piel saludable y radiante con nuestros tratamientos corporales naturales.
-  </p>
+  <p [innerHTML]="'BODY.description-page' | translate"></p>
 </div>
 
 <div class="section-select">
@@ -22,7 +18,7 @@
           <h5 class="card-title">{{ product.name }}</h5>
           <p class="card-text">{{ product.description }}</p>
           <p class="card-text"><strong>{{ product.price }}</strong></p>
-          <button type="button" class="btn-skin">Comprar</button>
+          <button type="button" class="btn-skin">{{"BODY.btn-skin" | translate}}</button>
         </div>
       </div>
   </div>

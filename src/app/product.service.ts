@@ -21,6 +21,7 @@ export class ProductService {
           ...product,
           name: product.name[lang],
           description: product.description[lang],
+          price: product.price[lang],
         }))
       )
     );

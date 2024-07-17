@@ -19,8 +19,9 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   title = 'shoppingpage-angular';
-
   menuOption: string = '';
+  currentLang: string = 'es';
+  iconSrc: string = 'assets/icons/icon-spain.png';
 
   constructor(private translate: TranslateService) {
     this.translate.addLangs(['en', 'es']);
@@ -35,5 +36,16 @@ export class AppComponent {
 
   navBar(menuOption: string) {
     this.menuOption = menuOption;
+  }
+
+  toggleLanguage() {
+    if (this.currentLang === 'es') {
+      this.currentLang = 'en';
+      this.iconSrc = 'assets/icons/icon-usa.png';
+    } else {
+      this.currentLang = 'es';
+      this.iconSrc = 'assets/icons/icon-spain.png';
+    }
+    this.translate.use(this.currentLang);
   }
 }

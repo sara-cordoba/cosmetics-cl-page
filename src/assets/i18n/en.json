@@ -4,7 +4,7 @@
     "title-home": "Cosmetics | cl",
     "btn-search": "Search",
     "text-page-home": "Home",
-    "text-page-skin": "Facial",
+    "text-page-skin": "Skin",
     "text-page-hair": "Hair",
     "text-page-body": "Body",
     "text-page-bathroom": "Bathroom"
@@ -42,5 +42,52 @@
     "title-page": "Hair",
     "description-page": "Discover our range of hair products, <span class=\"text-weight\">sulfate-free</span> and full of <span class=\"text-weight\">essential nutrients</span>. From shampoos to serums, our products contain natural ingredients like argan oil, mint, and keratin. Designed to <span class=\"text-weight\">hydrate</span>, <span class=\"text-weight\">strengthen</span>, and <span class=\"text-weight\">revitalize your hair</span>, leaving it soft and manageable.",
     "btn-skin": "Buy"
+  },
+
+  "BODY": {
+    "title-page": "Body",
+    "description-page": "Our body products are <span class=\"text-weight\">enriched with butters</span> and <span class=\"text-weight\">natural oils</span> such as cocoa and lavender. Each cream, lotion, and scrub is formulated to nourish and soften the skin, <span class=\"text-weight\">without harsh chemicals</span>. Enjoy healthy and radiant skin with our natural body treatments.",
+    "btn-skin": "Buy"
+  },
+
+  "BATHROOM": {
+    "title-page": "Bathroom",
+    "description-page": "Transform your bath routine with our <span class=\"text-weight\">salts</span>, <span class=\"text-weight\">bombs</span>, and <span class=\"text-weight\">bath oils</span>. Enriched with lavender, jojoba, and citrus extracts, our bath products are perfect for a relaxing and revitalizing experience. <span class=\"text-weight\">Sulfate-free</span> and with <span class=\"text-weight\">natural ingredients</span>, they care for your skin while you enjoy a spa bath at home.",
+    "btn-skin": "Buy"
+  },
+
+  "FOOTER": {
+    "icon-hand": "Gentle on the Skin",
+    "icon-lavender": "Natural Ingredients",
+    "icon-non-toxic": "Sulfate-Free",
+    "icon-paw": "Not Tested on Animals",
+    "icon-recycle": "Plastic-Free",
+    "icon-vegan": "100% Vegan",
+
+    "title-newsletter": "Subscribe to the Cosmetics Newsletter",
+    "text-newsletter": "Stay up to date on new releases, events, and more. We will not share your data with third parties and you can unsubscribe at any time. For more information, see our <span class=\"span-link\">privacy policy</span> and <span class=\"span-link\">terms and conditions</span>.",
+    "placeholder-email": "Email Address",
+    "text-submitted": "Successfully sent!",
+    "invalid-email": "Invalid email format",
+
+    "title-service": "Customer Service",
+    "li-contact": "Contact Us",
+    "li-information": "Delivery Information",
+    "li-conditions": "Terms of Sale",
+    "li-changes": "Exchanges and Returns",
+    "li-privacy": "Privacy Policy",
+    "li-cookies": "Cookie Policy",
+    "li-legal": "Legal Notice",
+    "li-confi-cookies": "Cookie Settings",
+
+    "title-are": "We Are Cosmetics",
+    "li-commitment": "Our Commitment",
+    "li-recycle": "Our Recycling Program",
+    "li-store-event": "In-Store Events",
+    "li-live": "Live Shopping",
+    "li-freshness": "Our Freshness Policy",
+    "li-app": "Cosmetics App",
+
+    "lang-price": "USA · English · $"
   }
 }
