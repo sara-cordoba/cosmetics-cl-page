@@ -6,7 +6,10 @@
         "es": "Cosmetics | CL - Crema facial hidratante",
         "en": "Cosmetics | CL - Hydrating Facial Cream"
       },
-      "price": "26,99€",
+      "price": {
+        "es": "26,99€",
+        "en": "$32.99"
+      },
       "description": {
         "es": "Ideal para pieles sensibles y secas, con aloe vera para una hidratación profunda y lavanda para calmar",
         "en": "Ideal for sensitive and dry skin, with aloe vera for deep hydration and lavender to soothe"
@@ -19,7 +22,10 @@
         "es": "Cosmetics | CL - Crema facial para piel grasa",
         "en": "Cosmetics | CL - Facial Cream for Oily Skin"
       },
-      "price": "24,99€",
+      "price": {
+        "es": "24,99€",
+        "en": "$30.99"
+      },
       "description": {
         "es": "Especialmente formulada para pieles grasas, con extracto de árbol de té para controlar el exceso de sebo y prevenir imperfecciones",
         "en": "Specially formulated for oily skin, with tea tree extract to control excess sebum and prevent blemishes"
@@ -32,7 +38,10 @@
         "es": "Cosmetics | CL - Crema facial para piel mixta",
         "en": "Cosmetics | CL - Facial Cream for Combination Skin"
       },
-      "price": "25,99€",
+      "price": {
+        "es": "25,99€",
+        "en": "$31.99"
+      },
       "description": {
         "es": "Equilibra las zonas secas y grasas de la piel mixta, con extracto de pepino y hamamelis",
         "en": "Balances dry and oily areas of combination skin, with cucumber and witch hazel extract"
@@ -45,7 +54,10 @@
         "es": "Cosmetics | CL - Crema facial para piel normal",
         "en": "Cosmetics | CL - Facial Cream for Normal Skin"
       },
-      "price": "23,99€",
+      "price": {
+        "es": "23,99€",
+        "en": "$29.99"
+      },
       "description": {
         "es": "Hidratación ligera y de rápida absorción, con vitamina E y aceite de jojoba para un cuidado diario",
         "en": "Light and fast-absorbing hydration, with vitamin E and jojoba oil for daily care"
@@ -58,7 +70,10 @@
         "es": "Cosmetics | CL - Mascarilla revitalizante",
         "en": "Cosmetics | CL - Revitalizing Mask"
       },
-      "price": "19,99€",
+      "price": {
+        "es": "19,99€",
+        "en": "$25.99"
+      },
       "description": {
         "es": "Mascarilla nutritiva con extracto de granada y vitamina C para revitalizar y dar luminosidad a la piel",
         "en": "Nourishing mask with pomegranate extract and vitamin C to revitalize and brighten the skin"
@@ -71,7 +86,10 @@
         "es": "Cosmetics | CL - Mascarilla purificante",
         "en": "Cosmetics | CL - Purifying Mask"
       },
-      "price": "18,99€",
+      "price": {
+        "es": "18,99€",
+        "en": "$24.99"
+      },
       "description": {
         "es": "Mascarilla de arcilla verde y carbón activado para purificar y limpiar profundamente los poros",
         "en": "Green clay and activated charcoal mask to purify and deeply cleanse pores"
@@ -86,7 +104,10 @@
         "es": "Cosmetics | CL - Champú hidratante",
         "en": "Cosmetics | CL - Hydrating Shampoo"
       },
-      "price": "14,99€",
+      "price": {
+        "es": "14,99€",
+        "en": "$18.99"
+      },
       "description": {
         "es": "Champú con aceite de argán para una hidratación profunda y brillo",
         "en": "Shampoo with argan oil for deep hydration and shine"
@@ -99,7 +120,10 @@
         "es": "Cosmetics | CL - Champú para cabello graso",
         "en": "Cosmetics | CL - Shampoo for Oily Hair"
       },
-      "price": "13,99€",
+      "price": {
+        "es": "13,99€",
+        "en": "$17.99"
+      },
       "description": {
         "es": "Champú con extracto de menta y árbol de té para controlar el exceso de sebo",
         "en": "Shampoo with mint and tea tree extract to control excess sebum"
@@ -112,51 +136,15 @@
         "es": "Cosmetics | CL - Acondicionador reparador",
         "en": "Cosmetics | CL - Repair Conditioner"
       },
-      "price": "15,99€",
+      "price": {
+        "es": "15,99€",
+        "en": "$19.99"
+      },
       "description": {
         "es": "Acondicionador con queratina y aceite de coco para reparar y fortalecer el cabello dañado",
         "en": "Conditioner with keratin and coconut oil to repair and strengthen damaged hair"
       },
       "imageUrl": "assets/products/hair-conditioner.webp"
-    },
-    {
-      "id": 10,
-      "name": {
-        "es": "Cosmetics | CL - Mascarilla capilar nutritiva",
-        "en": "Cosmetics | CL - Nutritive Hair Mask"
-      },
-      "price": "17,99€",
-      "description": {
-        "es": "Mascarilla con manteca de karité para nutrir y suavizar el cabello seco",
-        "en": "Mask with shea butter to nourish and soften dry hair"
-      },
-      "imageUrl": "assets/products/hair-mask.webp"
-    },
-    {
-      "id": 11,
-      "name": {
-        "es": "Cosmetics | CL - Serum capilar anti-frizz",
-        "en": "Cosmetics | CL - Anti-Frizz Hair Serum"
-      },
-      "price": "19,99€",
-      "description": {
-        "es": "Serum con aceite de almendra para controlar el frizz y añadir brillo",
-        "en": "Serum with almond oil to control frizz and add shine"
-      },
-      "imageUrl": "assets/products/hair-serum.webp"
-    },
-    {
-      "id": 12,
-      "name": {
-        "es": "Cosmetics | CL - Spray protector térmico",
-        "en": "Cosmetics | CL - Heat Protectant Spray"
-      },
-      "price": "18,99€",
-      "description": {
-        "es": "Spray con proteínas de seda para proteger el cabello del daño por calor",
-        "en": "Spray with silk proteins to protect hair from heat damage"
-      },
-      "imageUrl": "assets/products/hair-spray.webp"
     }
   ],
   "body": [
@@ -166,7 +154,10 @@
         "es": "Cosmetics | CL - Crema corporal hidratante",
         "en": "Cosmetics | CL - Hydrating Body Cream"
       },
-      "price": "22,99€",
+      "price": {
+        "es": "22,99€",
+        "en": "$28.99"
+      },
       "description": {
         "es": "Crema corporal con manteca de cacao para una piel suave y nutrida",
         "en": "Body cream with cocoa butter for soft and nourished skin"
@@ -179,7 +170,10 @@
         "es": "Cosmetics | CL - Exfoliante corporal",
         "en": "Cosmetics | CL - Body Scrub"
       },
-      "price": "21,99€",
+      "price": {
+        "es": "21,99€",
+        "en": "$27.99"
+      },
       "description": {
         "es": "Exfoliante con partículas de azúcar y aceite de almendra para una piel suave y renovada",
         "en": "Scrub with sugar particles and almond oil for soft and renewed skin"
@@ -192,7 +186,10 @@
         "es": "Cosmetics | CL - Aceite corporal relajante",
         "en": "Cosmetics | CL - Relaxing Body Oil"
       },
-      "price": "24,99€",
+      "price": {
+        "es": "24,99€",
+        "en": "$30.99"
+      },
       "description": {
         "es": "Aceite con lavanda y manzanilla para una experiencia de relajación total",
         "en": "Oil with lavender and chamomile for a total relaxation experience"
@@ -207,7 +204,10 @@
         "es": "Cosmetics | CL - Sales de baño relajantes",
         "en": "Cosmetics | CL - Relaxing Bath Salts"
       },
-      "price": "16,99€",
+      "price": {
+        "es": "16,99€",
+        "en": "$21.99"
+      },
       "description": {
         "es": "Sales de baño con lavanda y manzanilla para una experiencia de relajación total",
         "en": "Bath salts with lavender and chamomile for a total relaxation experience"
@@ -220,7 +220,10 @@
         "es": "Cosmetics | CL - Bombas de baño efervescentes",
         "en": "Cosmetics | CL - Effervescent Bath Bombs"
       },
-      "price": "14,99€",
+      "price": {
+        "es": "14,99€",
+        "en": "$18.99"
+      },
       "description": {
         "es": "Bombas de baño con aceites esenciales para una piel suave y perfumada",
         "en": "Bath bombs with essential oils for soft and perfumed skin"
@@ -233,12 +236,63 @@
         "es": "Cosmetics | CL - Espuma de baño calmante",
         "en": "Cosmetics | CL - Calming Bath Foam"
       },
-      "price": "18,99€",
+      "price": {
+        "es": "18,99€",
+        "en": "$24.99"
+      },
       "description": {
         "es": "Espuma de baño con extracto de avena y leche de almendra para calmar y suavizar la piel",
         "en": "Bath foam with oatmeal extract and almond milk to calm and soften the skin"
       },
       "imageUrl": "assets/products/bathroom-foam.webp"
+    },
+    {
+      "id": 22,
+      "name": {
+        "es": "Cosmetics | CL - Aceite de baño nutritivo",
+        "en": "Cosmetics | CL - Nourishing Bath Oil"
+      },
+      "price": {
+        "es": "19,99€",
+        "en": "$25.99"
+      },
+      "description": {
+        "es": "Aceite de baño con aceite de jojoba y vitamina E para nutrir y suavizar la piel",
+        "en": "Bath oil with jojoba oil and vitamin E to nourish and soften the skin"
+      },
+      "imageUrl": "assets/products/bathroom-oil.webp"
+    },
+    {
+      "id": 23,
+      "name": {
+        "es": "Cosmetics | CL - Gel de baño energizante",
+        "en": "Cosmetics | CL - Energizing Bath Gel"
+      },
+      "price": {
+        "es": "17,99€",
+        "en": "$22.99"
+      },
+      "description": {
+        "es": "Gel de baño con extracto de cítricos y ginseng para una piel revitalizada y energizada",
+        "en": "Bath gel with citrus extract and ginseng for revitalized and energized skin"
+      },
+      "imageUrl": "assets/products/bathroom-gel.webp"
+    },
+    {
+      "id": 24,
+      "name": {
+        "es": "Cosmetics | CL - Jabón de baño artesanal",
+        "en": "Cosmetics | CL - Handmade Bath Soap"
+      },
+      "price": {
+        "es": "12,99€",
+        "en": "$16.99"
+      },
+      "description": {
+        "es": "Jabón de baño hecho a mano con ingredientes naturales y fragancia de lavanda",
+        "en": "Handmade bath soap with natural ingredients and lavender fragrance"
+      },
+      "imageUrl": "assets/products/bathroom-soap.webp"
     }
   ],
   "profile": {
