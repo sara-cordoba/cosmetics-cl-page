@@ -30,14 +30,23 @@ export class SearchResultsComponent implements OnInit {
   searchProducts(): void {
     if (this.searchQuery.trim()) {
       this.productService.getAllProducts().subscribe((products) => {
+        console.log(products);
         this.searchResults = products.filter((product) => {
           const nameEs = product?.name?.es ?? '';
           const nameEn = product?.name?.en ?? '';
+          const descriptionEs = product?.description?.es ?? '';
+          const descriptionEn = product?.description?.en ?? '';
+
           return (
             nameEs.toLowerCase().includes(this.searchQuery.toLowerCase()) ||
-            nameEn.toLowerCase().includes(this.searchQuery.toLowerCase())
+            nameEn.toLowerCase().includes(this.searchQuery.toLowerCase()) ||
+            descriptionEs
+              .toLowerCase()
+              .includes(this.searchQuery.toLowerCase()) ||
+            descriptionEn.toLowerCase().includes(this.searchQuery.toLowerCase())
           );
         });
+        console.log(this.searchResults);
       });
     }
   }
