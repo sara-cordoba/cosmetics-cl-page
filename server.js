@@ -7,12 +7,12 @@ server.use(middlewares);
 
 server.get("/allProducts", (req, res) => {
   const db = router.db;
-  const facial = db.get("facial").value();
+  const facial = db.get("face").value();
   const hair = db.get("hair").value();
   const body = db.get("body").value();
   const bathroom = db.get("bathroom").value();
 
-  const allProducts = [...facial, ...hair, ...body, ...bathroom];
+  const allProducts = [...face, ...hair, ...body, ...bathroom];
 
   res.json(allProducts);
 });
