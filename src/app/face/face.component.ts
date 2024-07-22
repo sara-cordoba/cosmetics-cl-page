@@ -17,12 +17,12 @@ export class FaceComponent implements OnInit {
   constructor(private productService: ProductService) {}
 
   ngOnInit(): void {
-    this.productService.getProducts('facial').subscribe({
+    this.productService.getProducts('face').subscribe({
       next: (data: any[]) => {
         this.products = data;
       },
       error: (error: any) => {
-        console.error('Error fetching facial products', error);
+        console.error('Error fetching face products', error);
       },
       complete: () => {
         console.log('Product fetch completed');
