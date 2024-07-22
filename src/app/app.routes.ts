@@ -4,7 +4,7 @@ import { FaceComponent } from './face/face.component';
 import { HairComponent } from './hair/hair.component';
 import { BodyComponent } from './body/body.component';
 import { BathroomComponent } from './bathroom/bathroom.component';
-import { HttpClient } from '@angular/common/http';
+import { SearchResultsComponent } from './search-results/search-results.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -12,5 +12,6 @@ export const routes: Routes = [
   { path: 'hair', component: HairComponent },
   { path: 'body', component: BodyComponent },
   { path: 'bathroom', component: BathroomComponent },
+  { path: 'search-results', component: SearchResultsComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' },
 ];

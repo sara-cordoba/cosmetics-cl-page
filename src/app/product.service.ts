@@ -26,4 +26,18 @@ export class ProductService {
       )
     );
   }
+
+  getAllProducts(): Observable<any[]> {
+    const lang = this.translate.currentLang || this.translate.defaultLang;
+    return this.http.get<any[]>(`${this.apiUrl}/all`).pipe(
+      map((products) =>
+        products.map((product) => ({
+          ...product,
+          name: product.name[lang],
+          description: product.description[lang],
+          price: product.price[lang],
+        }))
+      )
+    );
+  }
 }

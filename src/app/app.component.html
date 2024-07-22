@@ -11,11 +11,12 @@
   </h1>
 
   <div id='search-box'>
-    <form action='/search' id='search-form' method='get' target='_top'>
-      <input id='search-text' name='q' type='text' [translatePlaceholder]="'APPCOMPONENT.placeholder'" />
+    <form id='search-form' (ngSubmit)="onSearch()">
+      <input id='search-text' name='q' type='text' [(ngModel)]="searchQuery" (keyup.enter)="onSearch()" [translatePlaceholder]="'APPCOMPONENT.placeholder'" />
       <button id='search-button' type='submit'><span>{{"APPCOMPONENT.btn-search" | translate }}</span></button>
     </form>
   </div>
+  
 
 <div class="icons-section">
   <button class="btn-spain" (click)="toggleLanguage()">
