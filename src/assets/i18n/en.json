@@ -36,25 +36,25 @@
   "SKIN": {
     "title-page": "Skin",
     "description-page": "Our facial products are formulated with natural ingredients, <span class=\"text-weight\">sulfate-free</span> and <span class=\"text-weight\">paraben-free</span>. Each cream and mask is designed to provide <span class=\"text-weight\">deep hydration</span> and <span class=\"text-weight\">balance your skin</span>. With plant extracts like aloe vera and tea tree, we guarantee gentle and effective care for all skin types.",
-    "btn-skin": "Buy"
+    "btn-skin": "Add to cart"
   },
 
   "HAIR": {
     "title-page": "Hair",
     "description-page": "Discover our range of hair products, <span class=\"text-weight\">sulfate-free</span> and full of <span class=\"text-weight\">essential nutrients</span>. From shampoos to serums, our products contain natural ingredients like argan oil, mint, and keratin. Designed to <span class=\"text-weight\">hydrate</span>, <span class=\"text-weight\">strengthen</span>, and <span class=\"text-weight\">revitalize your hair</span>, leaving it soft and manageable.",
-    "btn-skin": "Buy"
+    "btn-skin": "Add to cart"
   },
 
   "BODY": {
     "title-page": "Body",
     "description-page": "Our body products are <span class=\"text-weight\">enriched with butters</span> and <span class=\"text-weight\">natural oils</span> such as cocoa and lavender. Each cream, lotion, and scrub is formulated to nourish and soften the skin, <span class=\"text-weight\">without harsh chemicals</span>. Enjoy healthy and radiant skin with our natural body treatments.",
-    "btn-skin": "Buy"
+    "btn-skin": "Add to cart"
   },
 
   "BATHROOM": {
     "title-page": "Bathroom",
     "description-page": "Transform your bath routine with our <span class=\"text-weight\">salts</span>, <span class=\"text-weight\">bombs</span>, and <span class=\"text-weight\">bath oils</span>. Enriched with lavender, jojoba, and citrus extracts, our bath products are perfect for a relaxing and revitalizing experience. <span class=\"text-weight\">Sulfate-free</span> and with <span class=\"text-weight\">natural ingredients</span>, they care for your skin while you enjoy a spa bath at home.",
-    "btn-skin": "Buy"
+    "btn-skin": "Add to cart"
   },
 
   "FOOTER": {

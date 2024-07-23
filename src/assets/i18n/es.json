@@ -36,25 +36,25 @@
   "SKIN": {
     "title-page": "Facial",
     "description-page": "Nuestros productos faciales están formulados con ingredientes naturales, <span class=\"text-weight\">libres de sulfatos</span> y <span class=\"text-weight\">parabenos</span>. Cada crema y mascarilla está diseñada para proporcionar <span class=\"text-weight\">hidratación profunda</span> y <span class=\"text-weight\">equilibrar tu piel</span>. Con extractos de plantas como el aloe vera y el árbol de té, garantizamos un cuidado suave y efectivo para todos los tipos de piel.",
-    "btn-skin": "Comprar"
+    "btn-skin": "Añadir a la cesta"
   },
 
   "HAIR": {
     "title-page": "Cabello",
     "description-page": "Descubre nuestra gama de productos capilares, <span class=\"text-weight\">libres de sulfatos</span> y llenos de <span class=\"text-weight\">nutrientes esenciales</span>. Desde champús hasta serums, nuestros productos contienen ingredientes naturales como aceite de argán, menta y queratina. Diseñados para <span class=\"text-weight\">hidratar</span>, <span class=\"text-weight\">fortalecer</span> y <span class=\"text-weight\">revitalizar tu cabello</span>, dejándolo suave y manejable.",
-    "btn-skin": "Comprar"
+    "btn-skin": "Añadir a la cesta"
   },
 
   "BODY": {
     "title-page": "Cuerpo",
     "description-page": "Nuestros productos corporales están <span class=\"text-weight\">enriquecidos con mantecas</span> y <span class=\"text-weight\">aceites naturales</span> como el cacao y la lavanda. Cada crema, loción y exfoliante está formulado para nutrir y suavizar la piel, <span class=\"text-weight\">sin productos químicos agresivos</span>. Disfruta de una piel saludable y radiante con nuestros tratamientos corporales naturales.",
-    "btn-skin": "Comprar"
+    "btn-skin": "Añadir a la cesta"
   },
 
   "BATHROOM": {
     "title-page": "Baño",
     "description-page": "Transforma tu rutina de baño con nuestras <span class=\"text-weight\">sales</span>, <span class=\"text-weight\">bombas</span> y <span class=\"text-weight\">aceites de baño</span>. Enriquecidos con extractos de lavanda, jojoba y cítricos, nuestros productos de baño son perfectos para una experiencia relajante y revitalizante. <span class=\"text-weight\">Libres de sulfatos</span> y con <span class=\"text-weight\">ingredientes naturales</span>, cuidan tu piel mientras disfrutas de un baño de spa en casa.",
-    "btn-skin": "Comprar"
+    "btn-skin": "Añadir a la cesta"
   },
 
   "FOOTER": {

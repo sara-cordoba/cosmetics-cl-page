@@ -23,18 +23,25 @@
     <img [src]="iconSrc" alt="Icono de idioma" class="lang-spain">
   </button>
 
-  <button class="btn-shopping dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <button (click)="isExpanded = !isExpanded" class="btn-shopping dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     <img src="assets/icons/icon-bag.png" alt="Icono de compra" class="icon-shopping">
   </button>
-  <div class="dropdown-menu">
-    <div class="products-cart" *ngFor="let product of products">
-      <img [src]="product.imageUrl" />  {{ product.name }} - {{ product.price }}
+  <div class="dropdown-menu" [ngClass]="{'show': isExpanded}">
+    <div class="cart-item" *ngFor="let product of products">
+      <img [src]="product.imageUrl" />  {{ product.name }} - {{ product.price }} - x{{product.count}} 
+      <button (click)="delete(product.id)">
+        <img src="assets/icons/icon-trash.png" alt="Icono de basura" class="icon-trash">
+      </button>
     </div>
     <div class="total-price">
-      <p>Total : {{productPrice}}</p>
+      <p><span> Total : </span><span>{{totalCartPrice | currency}}</span></p>
+      <div class="btn-buy">
+        <button type="button">Comprar</button>
+      </div>
     </div>
   </div>
 </div>
+
 
 
 

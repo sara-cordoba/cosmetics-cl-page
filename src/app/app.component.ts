@@ -29,7 +29,8 @@ export class AppComponent implements OnInit {
   iconSrc: string = 'assets/icons/icon-spain.png';
   searchQuery: string = '';
   products: any[] = [];
-  productPrice = 0;
+  totalCartPrice = 0;
+  isExpanded = false;
 
   constructor(
     private translate: TranslateService,
@@ -49,11 +50,10 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     this.cartService.products$.subscribe({
       next: (products: any) => {
-        console.warn('hola');
-
+        this.totalCartPrice = 0;
         this.products = products;
         this.products.forEach((product) => {
-          this.productPrice += product.price;
+          this.totalCartPrice += product.price * product.count;
         });
       },
     });
@@ -74,5 +74,9 @@ export class AppComponent implements OnInit {
         queryParams: { q: this.searchQuery },
       });
     }
+  }
+
+  delete(productId: number) {
+    this.cartService.deleteProduct(productId);
   }
 }
