@@ -23,9 +23,17 @@
     <img [src]="iconSrc" alt="Icono de idioma" class="lang-spain">
   </button>
 
-  <button class="btn-shopping">
+  <button class="btn-shopping dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     <img src="assets/icons/icon-bag.png" alt="Icono de compra" class="icon-shopping">
   </button>
+  <div class="dropdown-menu">
+    <div class="products-cart" *ngFor="let product of products">
+      <img [src]="product.imageUrl" />  {{ product.name }} - {{ product.price }}
+    </div>
+    <div class="total-price">
+      <p>Total : {{productPrice}}</p>
+    </div>
+  </div>
 </div>
 
 

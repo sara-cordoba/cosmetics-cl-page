@@ -1,0 +1,9 @@
+<div class="card">
+    <img [src]="product.imageUrl" class="card-img-top" alt="{{ product.name }}">
+    <div class="card-body">
+      <h5 class="card-title">{{ product.name }}</h5>
+      <p class="card-text">{{ product.description }}</p>
+      <p class="card-text"><strong>{{ product.price }}</strong></p>
+      <button (click)="addToCart(product)" type="button" class="btn-skin">{{"BATHROOM.btn-skin" | translate}}</button>
+    </div>
+  </div>

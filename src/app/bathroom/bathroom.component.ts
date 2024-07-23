@@ -1,3 +1,4 @@
+import { ProductCardComponent } from './../shared-components/product-card/product-card.component';
 import { ProductService } from './../product.service';
 import { CommonModule, NgFor, NgIf } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
@@ -6,7 +7,7 @@ import { TranslateModule } from '@ngx-translate/core';
 @Component({
   selector: 'app-bathroom',
   standalone: true,
-  imports: [CommonModule, NgFor, NgIf, TranslateModule],
+  imports: [CommonModule, NgFor, NgIf, TranslateModule, ProductCardComponent],
   templateUrl: './bathroom.component.html',
   styleUrl: './bathroom.component.scss',
 })

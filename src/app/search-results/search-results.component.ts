@@ -3,13 +3,14 @@ import { ProductService } from './../product.service';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
+import { ProductCardComponent } from '../shared-components/product-card/product-card.component';
 
 @Component({
   selector: 'app-search-results',
   standalone: true,
-  imports: [CommonModule, TranslateModule],
+  imports: [CommonModule, TranslateModule, ProductCardComponent],
   templateUrl: './search-results.component.html',
-  styleUrls: ['./search-results.component.css'],
+  styleUrls: ['./search-results.component.scss'],
 })
 export class SearchResultsComponent implements OnInit {
   searchQuery: string = '';
@@ -32,18 +33,12 @@ export class SearchResultsComponent implements OnInit {
       this.productService.getAllProducts().subscribe((products) => {
         console.log(products);
         this.searchResults = products.filter((product) => {
-          const nameEs = product?.name?.es ?? '';
-          const nameEn = product?.name?.en ?? '';
-          const descriptionEs = product?.description?.es ?? '';
-          const descriptionEn = product?.description?.en ?? '';
+          const name = product?.name ?? '';
+          const description = product?.description ?? '';
 
           return (
-            nameEs.toLowerCase().includes(this.searchQuery.toLowerCase()) ||
-            nameEn.toLowerCase().includes(this.searchQuery.toLowerCase()) ||
-            descriptionEs
-              .toLowerCase()
-              .includes(this.searchQuery.toLowerCase()) ||
-            descriptionEn.toLowerCase().includes(this.searchQuery.toLowerCase())
+            name.toLowerCase().includes(this.searchQuery.toLowerCase()) ||
+            description.toLowerCase().includes(this.searchQuery.toLowerCase())
           );
         });
         console.log(this.searchResults);

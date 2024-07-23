@@ -9,17 +9,7 @@
   <p [innerHTML]="'BATHROOM.description-page' | translate"></p> 
 </div>
 
-<div class="section-select">
-  <div class="card-group">
-      <div class="card" *ngFor="let product of products">
-        <img [src]="product.imageUrl" class="card-img-top" alt="{{ product.name }}">
-        <div class="card-body">
-          <h5 class="card-title">{{ product.name }}</h5>
-          <p class="card-text">{{ product.description }}</p>
-          <p class="card-text"><strong>{{ product.price }}</strong></p>
-          <button type="button" class="btn-skin">{{"BATHROOM.btn-skin" | translate}}</button>
-        </div>
-      </div>
-  </div>
+<div class="card-group"> 
+  <app-product-card [product]="product" *ngFor="let product of products"></app-product-card>
 </div>
 

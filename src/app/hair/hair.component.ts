@@ -2,11 +2,12 @@ import { ProductService } from './../product.service';
 import { CommonModule, NgFor, NgIf } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { ProductCardComponent } from '../shared-components/product-card/product-card.component';
 
 @Component({
   selector: 'app-hair',
   standalone: true,
-  imports: [CommonModule, NgFor, NgIf, TranslateModule],
+  imports: [CommonModule, NgFor, NgIf, TranslateModule, ProductCardComponent],
   templateUrl: './hair.component.html',
   styleUrl: './hair.component.scss',
 })
