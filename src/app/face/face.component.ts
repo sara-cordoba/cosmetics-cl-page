@@ -2,8 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProductService } from '../product.service';
 import { NgFor, NgIf } from '@angular/common';
-import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { TranslateModule } from '@ngx-translate/core';
 import { ProductCardComponent } from '../shared-components/product-card/product-card.component';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-face',
@@ -14,8 +15,12 @@ import { ProductCardComponent } from '../shared-components/product-card/product-
 })
 export class FaceComponent implements OnInit {
   products: any[] = [];
+  searchQuery: string = '';
 
-  constructor(private productService: ProductService) {}
+  constructor(
+    private productService: ProductService,
+    private route: ActivatedRoute
+  ) {}
 
   ngOnInit(): void {
     this.productService.getProducts('face').subscribe({
@@ -29,5 +34,12 @@ export class FaceComponent implements OnInit {
         console.log('Product fetch completed');
       },
     });
+
+    this.route.queryParams.subscribe((params) => {
+      this.searchQuery = params['q'] || '';
+      this.filterBySkinType();
+    });
   }
+
+  filterBySkinType() {}
 }
