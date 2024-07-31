@@ -1,14 +1,28 @@
 /* Carrousel */
-
 .carousel-caption h3,
 .carousel-caption h5 {
   text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  width: 40%;
+  left: 30%;
+  position: relative;
+  z-index: 2;
 }
 
 .carousel-item img {
   width: 100%;
   height: 400px;
   object-fit: cover;
+}
+
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  z-index: 1; /* Asegura que el degradado esté sobre la imagen pero debajo del texto */
 }
 
 /* Test */
@@ -41,7 +55,7 @@
     height: 100%;
     display: flex;
     align-items: center;
-    max-width: 40%;
+    max-width: 36%;
     text-align: end;
   }
 }
@@ -49,7 +63,7 @@
 .section-right {
   width: 40%;
   height: 100%;
-  padding: 20px;
+  padding: 54px;
   position: relative;
   background-color: #cbf3ee;
 
@@ -99,6 +113,7 @@
 
         .card-text {
           font-size: 14px;
+          padding: 20px;
           margin-bottom: 10px;
           text-wrap: pretty;
         }
