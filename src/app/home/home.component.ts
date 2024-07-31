@@ -17,4 +17,6 @@ export class HomeComponent {
       queryParams: { q: query },
     });
   }
+
+  getImageSource() {}
 }

@@ -2,6 +2,7 @@
   "face": [
     {
       "id": 1,
+      "skinType": "dry",
       "name": {
         "es": "Cosmetics | CL - Crema facial hidratante",
         "en": "Cosmetics | CL - Hydrating Facial Cream"
@@ -18,6 +19,7 @@
     },
     {
       "id": 2,
+      "skinType": "oily",
       "name": {
         "es": "Cosmetics | CL - Crema facial para piel grasa",
         "en": "Cosmetics | CL - Facial Cream for Oily Skin"
@@ -34,6 +36,7 @@
     },
     {
       "id": 3,
+      "skinType": "mixed",
       "name": {
         "es": "Cosmetics | CL - Crema facial para piel mixta",
         "en": "Cosmetics | CL - Facial Cream for Combination Skin"
@@ -50,6 +53,7 @@
     },
     {
       "id": 4,
+      "skinType": "normal",
       "name": {
         "es": "Cosmetics | CL - Crema facial para piel normal",
         "en": "Cosmetics | CL - Facial Cream for Normal Skin"
