@@ -65,13 +65,13 @@
     "icon-recycle": "Sin plásticos",
     "icon-vegan": "100% vegano",
 
-    "title-newsletter": "Suscribete a la Newsletter de Cosmetics",
-    "text-newsletter": "Mantente al día sobre los nuevos lanzamientos, eventos y mucho más. No compartiremos tus datos con terceros y puedes darte de baja en cualquier momento. Para mas información, consulta nuestra <span class=\"span-link\">política de privacidad</span> y las <span class=\"span-link\">condiciones generales</span> de venta.",
+    "title-newsletter": "Suscríbete a la Newsletter de Cosmetics",
+    "text-newsletter": "Mantente al día sobre los nuevos lanzamientos, eventos y mucho más. No compartiremos tus datos con terceros y puedes darte de baja en cualquier momento. Para más información, consulta nuestra <span class=\"span-link\">política de privacidad</span> y las <span class=\"span-link\">condiciones generales</span> de venta.",
     "placeholder-email": "Dirección de correo electrónico",
     "text-submitted": "¡Enviado satisfactoriamente!",
     "invalid-email": "Formato de correo inválido",
 
-    "title-service": "Servicio de antención al cliente",
+    "title-service": "Servicio de atención al cliente",
     "li-contact": "Contáctanos",
     "li-information": "Información sobre la entrega",
     "li-conditions": "Condiciones de venta",
