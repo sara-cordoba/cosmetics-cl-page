@@ -60,7 +60,7 @@
     <div class="card-group">
 
         <div class="card">
-          <img src="assets/test-home/normal-skin.png" class="card-img-top" alt="...">
+          <img [src]="skinTypeUrls[0][currentLanguage]" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text">{{"HOME.text-card-1" | translate}}</p>
             <button (click)="goToFaceSection('normal')" type="button" class="btn-skin">{{"HOME.btn-card-1" | translate}}</button>
@@ -68,7 +68,7 @@
         </div>
 
         <div class="card">
-          <img src="assets/test-home/dry-skin.png" class="card-img-top" alt="...">
+          <img [src]="skinTypeUrls[1][currentLanguage]" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text">{{"HOME.text-card-2" | translate}}</p>
             <button (click)="goToFaceSection('dry')" type="button" class="btn-skin">{{"HOME.btn-card-2" | translate}}</button>
@@ -76,7 +76,7 @@
         </div>
 
         <div class="card">
-          <img src="assets/test-home/mixed-skin.png" class="card-img-top" alt="...">
+          <img [src]="skinTypeUrls[2][currentLanguage]" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text">{{"HOME.text-card-3" | translate}}</p>
             <button (click)="goToFaceSection('mixed')" type="button" class="btn-skin">{{"HOME.btn-card-3" | translate}}</button>
@@ -84,7 +84,7 @@
         </div>
 
         <div class="card">
-            <img src="assets/test-home/oily-skin.png" class="card-img-top" alt="...">
+            <img [src]="skinTypeUrls[3][currentLanguage]" class="card-img-top" alt="...">
             <div class="card-body">
               <p class="card-text">{{"HOME.text-card-4" | translate}}</p>
               <button (click)="goToFaceSection('oily')" type="button" class="btn-skin">{{"HOME.btn-card-4" | translate}}</button>

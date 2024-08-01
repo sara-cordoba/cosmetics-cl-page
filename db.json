@@ -15,10 +15,7 @@
         "es": "Ideal para pieles sensibles y secas, con aloe vera para una hidratación profunda y lavanda para calmar",
         "en": "Ideal for sensitive and dry skin, with aloe vera for deep hydration and lavender to soothe"
       },
-      "imageUrl": {
-        "es": "assets/products/skin-cream1.webp",
-        "en": "assets/products/normal-skin-en.png"
-      }
+      "imageUrl": "assets/products/skin-cream1.webp"
     },
     {
       "id": 2,
@@ -35,10 +32,7 @@
         "es": "Especialmente formulada para pieles grasas, con extracto de árbol de té para controlar el exceso de sebo y prevenir imperfecciones",
         "en": "Specially formulated for oily skin, with tea tree extract to control excess sebum and prevent blemishes"
       },
-      "imageUrl": {
-        "es": "assets/products/skin-cream2.webp",
-        "en": "assets/products/dry-skin-en.png"
-      }
+      "imageUrl": "assets/products/skin-cream2.webp"
     },
     {
       "id": 3,
@@ -55,10 +49,7 @@
         "es": "Equilibra las zonas secas y grasas de la piel mixta, con extracto de pepino y hamamelis",
         "en": "Balances dry and oily areas of combination skin, with cucumber and witch hazel extract"
       },
-      "imageUrl": {
-        "es": "assets/products/skin-cream3.webp",
-        "en": "assets/products/mixed-skin-en.png"
-      }
+      "imageUrl": "assets/products/skin-cream3.webp"
     },
     {
       "id": 4,
@@ -75,10 +66,7 @@
         "es": "Hidratación ligera y de rápida absorción, con vitamina E y aceite de jojoba para un cuidado diario",
         "en": "Light and fast-absorbing hydration, with vitamin E and jojoba oil for daily care"
       },
-      "imageUrl": {
-        "es": "assets/products/skin-cream4.webp",
-        "en": "assets/products/oily-skin-en.png"
-      }
+      "imageUrl": "assets/products/skin-cream4.webp"
     },
     {
       "id": 5,
