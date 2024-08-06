@@ -7,6 +7,7 @@ import { LanguageService } from './language.service';
 import { TranslatePlaceholderDirective } from './translate-placeholder.directive';
 import { FormsModule } from '@angular/forms';
 import { CartService } from './cart.service';
+import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
 
 @Component({
   selector: 'app-root',
@@ -31,12 +32,15 @@ export class AppComponent implements OnInit {
   products: any[] = [];
   totalCartPrice = 0;
   isExpanded = false;
+  isMobileMenuExpanded = false;
+  isMobile = false;
 
   constructor(
     private translate: TranslateService,
     private languageService: LanguageService,
     private router: Router,
-    private cartService: CartService
+    private cartService: CartService,
+    private breakpointObserver: BreakpointObserver
   ) {
     this.languageService.currentLang$.subscribe((lang) => {
       this.translate.use(lang);
@@ -48,6 +52,12 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.breakpointObserver
+      .observe(['(max-width: 600px)'])
+      .subscribe((stateVar: BreakpointState) => {
+        this.isMobile = stateVar.matches;
+      });
+
     this.cartService.products$.subscribe({
       next: (products: any) => {
         this.totalCartPrice = 0;

@@ -119,7 +119,6 @@ button {
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
-
     margin: 0;
     background-color: #000000;
   }
@@ -147,6 +146,11 @@ button {
       color: #cbf3ee;
     }
   }
+
+  button,
+  .icon-hamburguer {
+    display: none;
+  }
 }
 
 // Shipping cart dropdown
@@ -155,9 +159,9 @@ button {
 }
 
 .dropdown-menu {
-  transform: translate(-450px, 43px);
-  width: 34%;
-  padding: 20px;
+  transform: translate(-388px, 39px);
+  width: 450px;
+  padding: 12px;
 
   .cart-item {
     display: flex;
@@ -165,7 +169,7 @@ button {
     align-items: center;
     font-weight: 700;
     margin-bottom: 15px;
-    
+
     button {
       margin-left: auto;
     }
@@ -220,6 +224,7 @@ button {
 }
 
 /* Responsive */
+
 @media (max-width: 600px) {
   .title-section {
     flex-direction: column;
@@ -237,10 +242,12 @@ button {
   .icons-section {
     display: block;
     margin-right: 0px;
+    padding-bottom: 5px;
   }
 
   .nav-home {
     top: 100px;
+    min-height: 49px;
     ul {
       flex-direction: column;
       align-items: center;
@@ -263,5 +270,24 @@ button {
         border-bottom: 1px solid #ffffff;
       }
     }
+
+    button,
+    .icon-hamburguer {
+      display: inline;
+      width: 25px;
+      height: 25px;
+      filter: contrast(0.5);
+      position: absolute;
+      cursor: pointer;
+      z-index: 1;
+    }
+  }
+
+  .dropdown-menu {
+    width: 80%;
+    max-width: 500px;
+    padding: 5px;
+    left: 136%;
+    top: 49%;
   }
 }

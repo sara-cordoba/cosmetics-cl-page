@@ -46,7 +46,10 @@
 
 
 <nav class="nav-home">
-<ul>
+  <button (click)="isMobileMenuExpanded = !isMobileMenuExpanded" > 
+    <img class="icon-hamburguer" src="assets/icons/hamburguer.png">
+  </button>
+<ul *ngIf="isMobileMenuExpanded || !isMobile">
   <li> 
     <a routerLink="home" (click)="navBar('home')">{{"APPCOMPONENT.text-page-home" | translate}}</a>
   </li>
